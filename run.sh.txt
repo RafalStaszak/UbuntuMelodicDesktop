@@ -1,1 +1,0 @@
-docker run -ti --rm -e DISPLAY=$DISPLAY -p 5901:5901 --name ubuntu-vnc-melodic ubuntu-vnc-melodic
