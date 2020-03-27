@@ -1,8 +1,8 @@
 FROM osrf/ros:melodic-desktop-full
 MAINTAINER Rafal Staszak <staszak.raf@gmail.com>
 
-RUN echo "Europe/Warsaw" > /etc/timezone
-# RUN sudo ln -fs /usr/share/zoneinfo/Europe/Rome /etc/localtime
+RUN echo "Europe/Utc" > /etc/timezone
+# RUN ln -fs /usr/share/zoneinfo/Europe/Rome /etc/localtime
 
 RUN apt-get update -q && \
 	export DEBIAN_FRONTEND=noninteractive && \
@@ -41,6 +41,5 @@ RUN sed -i 's/--no-generate//g' /usr/share/bash-completion/completions/apt-get &
 WORKDIR /root/
 
 RUN mkdir -p /root/.vnc
-COPY xstartup /root/.vnc/
-RUN chmod a+x /root/.vnc/xstartup
+COPY .bashrc /root/
 RUN touch /root/.Xauthority
