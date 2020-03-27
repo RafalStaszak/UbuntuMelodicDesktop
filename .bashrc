@@ -99,4 +99,4 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 export USER=root
-source /ros_entrypoint.sh
+source "/opt/ros/$ROS_DISTRO/setup.bash"
