@@ -97,3 +97,6 @@ fi
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
+
+export USER=root
+source /ros_entrypoint.sh
