@@ -49,7 +49,7 @@ Launch **VNC Viewer** application on Windows to show a desktop:
 * enter **127.0.0.1:5901** in the main window
 * Enter a password and the ubuntu desktop would appear
 
-![VNC](https://github.com/RafalStaszak/UbuntuMelodicDesktop/vnc.png)
+![VNC](https://github.com/RafalStaszak/UbuntuMelodicDesktop/blob/master/vnc.PNG)
 
 
 Launch **XLaunch** application on Windows to create an *X Desktop* instance (OpenGL support):
@@ -58,7 +58,7 @@ Launch **XLaunch** application on Windows to create an *X Desktop* instance (Ope
 * select *Start no client*
 * select *Clipboard*, deselect *Native opengl* , select *Disable access control*
 
-![Rviz](https://github.com/RafalStaszak/UbuntuMelodicDesktop/rviz.png)
+![Rviz](https://github.com/RafalStaszak/UbuntuMelodicDesktop/blob/master/rviz.PNG)
 
 ##How to work with Docker:
 Docker is a set of platform as a service products that uses OS-level virtualization to deliver software in packages called **containers**. Every container is created from an **image** instance which is a raw version of a software bundle. In such a setting containers may be described as actual running applications.
@@ -98,8 +98,8 @@ Removing image:
 ```sh
 docker rmi [name | image ID]
 ```
-
-![Commands](https://github.com/RafalStaszak/UbuntuMelodicDesktop/commands.png)
+blob/master/vnc.PNG
+![Commands](https://github.com/RafalStaszak/UbuntuMelodicDesktop/blob/master/commands.PNG)
 
    [Docker]: <https://docs.docker.com/docker-for-windows/>
    [VcXsrv]: <https://sourceforge.net/projects/vcxsrv/>
