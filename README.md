@@ -60,7 +60,7 @@ Launch **XLaunch** application on Windows to create an *X Desktop* instance (Ope
 
 ![Rviz](https://github.com/RafalStaszak/UbuntuMelodicDesktop/blob/master/rviz.PNG)
 
-##How to work with Docker:
+## How to work with Docker:
 Docker is a set of platform as a service products that uses OS-level virtualization to deliver software in packages called **containers**. Every container is created from an **image** instance which is a raw version of a software bundle. In such a setting containers may be described as actual running applications.
 
 * **containers** are created from images
