@@ -98,7 +98,6 @@ Removing image:
 ```sh
 docker rmi [name | image ID]
 ```
-blob/master/vnc.PNG
 ![Commands](https://github.com/RafalStaszak/UbuntuMelodicDesktop/blob/master/commands.PNG)
 
    [Docker]: <https://docs.docker.com/docker-for-windows/>
